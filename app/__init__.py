@@ -3,7 +3,7 @@ from .routes import bp
 
 def create_app():
     app = Flask(__name__)
-    app.register_blueprint(bp, url_prefix="")  # <--- This makes '/' work!
+    app.register_blueprint(bp, url_prefix="")
     return app
 
-app = create_app()
+application = create_app()

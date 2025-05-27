@@ -1,0 +1,16 @@
+{
+    "dev": {
+        "app_function": "wsgi.app",
+        "aws_region": "us-east-1",
+        "profile_name": "default",
+        "project_name": "travel-chatbot",
+        "runtime": "python3.9",
+        "s3_bucket": "travel-chatbot-lambda",
+        "memory_size": 512,
+        "timeout_seconds": 30,
+        "keep_warm": true,
+        "environment_variables": {
+            "FLASK_ENV": "production"
+        }
+    }
+} 
